@@ -1,0 +1,66 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.688199",
+   "Default View_TopLeft":"-498,445",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR_0 -pg 1 -lvl 3 -x 1190 -y 20 -defaultsOSRD
+preplace port FIXED_IO_0 -pg 1 -lvl 3 -x 1190 -y 40 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 1 -x 240 -y 110 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 1 -x 240 -y 350 -defaultsOSRD
+preplace inst caravel_ps_0 -pg 1 -lvl 1 -x 240 -y 770 -defaultsOSRD
+preplace inst output_pin_0 -pg 1 -lvl 1 -x 240 -y 1130 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 240 -y 580 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 830 -y 480 -defaultsOSRD
+preplace inst read_romcode_0 -pg 1 -lvl 2 -x 830 -y -100 -defaultsOSRD
+preplace inst rst_ps7_0_10M -pg 1 -lvl 2 -x 830 -y 200 -defaultsOSRD
+preplace inst spiflash_0 -pg 1 -lvl 2 -x 830 -y 780 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 1 -x 240 -y -80 -defaultsOSRD
+preplace inst axi_intc_0 -pg 1 -lvl 2 -x 830 -y -250 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 2 -x 830 -y 940 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -x 830 -y 40 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -x 240 -y -290 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 1 -x 240 -y -390 -defaultsOSRD
+preplace inst caravel_0 -pg 1 -lvl 1 -x 240 -y 960 -defaultsOSRD
+preplace netloc axi_uartlite_0_tx 1 1 1 560 -70n
+preplace netloc xlconcat_0_dout 1 0 3 -80 1340 NJ 1340 1140
+preplace netloc xlconstant_0_dout 1 1 1 570J -290n
+preplace netloc xlconstant_1_dout 1 1 1 480J -390n
+preplace netloc blk_mem_gen_0_douta 1 0 2 -60 1260 620
+preplace netloc caravel_0_flash_clk 1 1 1 610 810n
+preplace netloc caravel_0_flash_csb 1 1 1 600 790n
+preplace netloc caravel_0_flash_io0 1 1 1 630 830n
+preplace netloc caravel_0_mprj_en 1 0 2 -10 1230 530
+preplace netloc caravel_0_mprj_o 1 0 2 -40 1240 570
+preplace netloc output_pin_0_outpin 1 0 2 -30 1270 470
+preplace netloc processing_system7_0_FCLK_CLK1 1 0 2 -70 -180 620
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 1 600 180n
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 0 3 -90 1250 590 -410 1090
+preplace netloc rst_ps7_0_50M_peripheral_reset 1 1 2 640 1000 1060
+preplace netloc spiflash_0_io1 1 0 3 -50 1290 NJ 1290 1020
+preplace netloc spiflash_0_romcode_Addr_A 1 0 3 -150 1300 NJ 1300 1090
+preplace netloc spiflash_0_romcode_Clk_A 1 0 3 -110 1280 NJ 1280 1030
+preplace netloc spiflash_0_romcode_Din_A 1 0 3 -140 1310 NJ 1310 1080
+preplace netloc spiflash_0_romcode_EN_A 1 0 3 -130 1320 NJ 1320 1100
+preplace netloc spiflash_0_romcode_Rst_A 1 0 3 -120 1330 NJ 1330 1070
+preplace netloc spiflash_0_romcode_WEN_A 1 0 3 -20 -200 490J -430 1130
+preplace netloc axi_uartlite_0_interrupt 1 1 1 580 -220n
+preplace netloc axi_intc_0_irq 1 0 3 -100 -220 470J -440 1100
+preplace netloc xlslice_0_Dout 1 1 2 500 -420 1120
+preplace netloc axi_mem_intercon_M00_AXI 1 0 2 -10 -170 470
+preplace netloc processing_system7_0_DDR 1 1 2 540 -390 1160J
+preplace netloc processing_system7_0_FIXED_IO 1 1 2 550 -380 1150J
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 610 340n
+preplace netloc ps7_0_axi_periph_M00_AXI 1 0 3 -20 1210 NJ 1210 1050
+preplace netloc ps7_0_axi_periph_M01_AXI 1 0 3 0 1220 NJ 1220 1040
+preplace netloc ps7_0_axi_periph_M02_AXI 1 1 2 630 -370 1070
+preplace netloc read_romcode_0_internal_bram_PORTA 1 0 3 -80 -230 510J -350 1060
+preplace netloc read_romcode_0_m_axi_BUS0 1 0 3 -60 -210 530J -340 1040
+preplace netloc ps7_0_axi_periph_M03_AXI 1 0 3 0 -190 520J -400 1110
+preplace netloc ps7_0_axi_periph_M04_AXI 1 1 2 640 -360 1080
+levelinfo -pg 1 -170 240 830 1190
+pagesize -pg 1 -db -bbox -sgen -170 -450 1320 1350
+"
+}
+
